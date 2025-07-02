@@ -19,7 +19,7 @@
   document.body.appendChild(chatButton);
 
   const iframe = document.createElement('iframe');
-  iframe.src = 'https://diamondlab-ai-backend.onrender.com'; // Your backend server
+  iframe.src = 'https://diamondlab-ai-frontend.onrender.com'; // ✅ Updated to frontend
   iframe.style.position = 'fixed';
   iframe.style.bottom = '90px';
   iframe.style.right = '20px';
